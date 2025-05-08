@@ -39,7 +39,7 @@ Esse portifólio é um site que desenvolvi a partir de um template no Figma, par
 <!-- EXEMPLO DE LAYOUT: -->
 ## 🎨 Layout
 
-![Web1](https://github.com/NikRedFox/Financen/blob/main/src/assets/images/Financen-thumbnail.png)
+![Web1](https://github.com/NikRedFox/Portifolio-Web/blob/main/src/assets/images/Portifolio-thumbnail.png)
 
 ---
 
@@ -51,7 +51,7 @@ Esse portifólio é um site que desenvolvi a partir de um template no Figma, par
 3 - Abrir o arquivo index.html
 
 * Pode Pode também rodar o site sem baixar pelo link do guithub pages:
-* <a href="https://nikredfox.github.io/Financen/">Portifolio-Web</a>
+* <a href="https://nikredfox.github.io/Portifolio-Web/">Portifolio-Web</a>
 
 <!-- MODELO DE PRÉ REQUISITOS -->
 ### Pré-requisitos
@@ -83,6 +83,13 @@ Ferramentas:
 
 <!-- ---------------------------------------------------------------------- -->
 
+<!-- MODELO DE AUTOR-->
+## 🦸 Autor
+<a href="https://github.com/NikRedFox">Nikolas Barbosa dos Santos</a>
+
+
+
+<!-- ---------------------------------------------------------------------- -->
 <!-- MODELO DE AUTOR-->
 ## 🦸 Autor
 <a href="https://github.com/NikRedFox">Nikolas Barbosa dos Santos</a>
