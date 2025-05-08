@@ -1,0 +1,405 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;    
+}
+
+body{
+    background-color: black;
+    font-family: 'Inter';
+    color: white;
+}
+
+/* Header*/
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 104px;    
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.header-links{
+    display: flex;
+}
+
+.header-items{
+    display: flex;
+    list-style: none;
+    gap: 57px;
+}
+
+.header-items a{
+    text-decoration: none;
+    color: white;
+}
+/* Header*/
+
+/* Main*/
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 158px 0px 109px;
+    gap: 300px;
+    margin-bottom: 250px;
+}
+
+main p{
+    font-size: 24px;
+    font-weight: 500;
+    width: 658px;    
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-container h1{
+    font-family: 'Playfair Display';
+    font-size: 250px;
+    position: absolute;
+    top: 320px;
+    text-align: center;
+    line-height: 190px;
+}
+
+.img-main-1{
+    position: absolute;
+    right: -20px;
+    bottom: 100px;
+    width: 40%;
+}
+
+.img-main-2{
+    position: absolute;
+    bottom: -220px;
+    left: 0px;
+    width: 43%;
+}
+
+main button{
+    width: 260px;
+    height: 72px;
+    font-size: 38px;
+    font-weight: 700;
+    margin-left: 650px;
+}
+/* Main*/
+
+/* Portifolio */
+.portifolio-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.portifolio-container h2{
+    font-family: 'Playfair Display';
+    font-size: 81px;
+    font-weight: 500;
+}
+
+.quadro-container{
+    display: flex;
+    justify-content: center;
+    gap: 74px;
+}
+.quadro-column-left{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 3fr;
+    gap: 77px;
+}
+
+.quadro-column-right{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 3fr;
+    gap: 77px;
+}
+
+.first-img{
+    width: 578px;
+    height: 996px;
+}
+
+.second-img{
+    width: 578px;
+    height: 626px;
+}
+
+.third-img{
+    width: 578px;
+    height: 819px;
+}
+
+.fourth-img{
+    width: 578px;
+    height: 1391px;
+}
+
+.fifth-img{
+    width: 578px;
+    height: 804px;
+}
+
+.sixth-img{
+    width: 578px;
+    height: 606px;
+}
+
+/* Portifolio */
+
+/* About */
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 350px;
+    gap: 70px;
+    padding: 0px 115px;
+}
+
+.about-container h2{
+    font-family: 'Playfair Display';
+    font-size: 81px;
+    font-weight: 500;
+}
+
+.about-textbox{
+    display: flex;
+    gap: 71px;    
+}
+
+.about-text{
+    display:  flex;
+    flex-direction: column;
+    font-size: 40px;
+    gap: 70px;
+    margin-top: 60px;
+}
+/* About */
+
+/* Testimonials */
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    margin-top: 342px;
+}
+
+.testimonials-container p{
+    width: 750px;
+}
+
+.testimonials-cards-container{
+    display: flex;
+    justify-content: center;
+    gap: 54px;
+}
+
+.testimonials-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.testimonials-text h2{
+    font-family: 'Playfair Display';
+    font-size: 81px;
+    font-weight: 500;
+}
+
+.testimonials-text p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.testimonials-cards-horizontal{
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+}
+
+.testimonial-card-H{
+    display: flex;
+}
+
+.card-text-H{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px 5px 10px 20px; 
+    background-color: #181818;   
+    height: 310px;
+    width: 430px;
+}
+
+.card-text-H h3{
+    font-size: 44px;
+    width: 390px;
+}
+
+.card-text-H p{
+    font-size: 15px;
+    width: 290px;
+}
+
+.card-text-H button{
+    width: 150px;
+    height: 21px;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card-text-H img{
+    width: 10%;
+    align-items: center;
+}
+
+.testimonial-card-V{
+    width: 327px;
+}
+
+.card-text-V{
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 362px;
+    background-color: #181818;
+    gap: 20px;
+    padding: 21px 29px 34px 20px;
+}
+
+.card-text-V h3{
+    font-size: 38px;
+    width: 250px;
+}
+
+.card-text-V p{
+    font-size: 15px;
+    width: 220px;
+}
+
+.card-text-V button{
+    width: 150px;
+    height: 21px;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.testimonial-button{
+    width: 221px;
+    height: 77px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+/* Testimonials */
+
+/* Contact */
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 368px;
+}
+
+.contact-container h2{
+    font-family: 'Playfair Display';
+    font-size: 81px;
+    font-weight: 500;
+}
+
+.form-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.form-box label{
+    font-size: 44px;
+}
+
+.input-underline{
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    width: 855px;
+    height: 40px;
+    margin-bottom: 58px;
+}
+
+.input-underline-message{
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    width: 855px;
+    height: 187px;
+    resize: none;   
+    margin-bottom: 101px; 
+}
+
+.input-underline::placeholder{
+    font-size: 25px;
+}
+
+.input-underline-message::placeholder{
+    font-size: 25px;
+    font-family: 'Inter';    
+}
+
+.form-box button{
+    background-color: white;
+    width: 187px;
+    height: 72px;
+    font-size: 38px;
+    font-weight: 700;
+}
+/* Contact */
+
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 436px;
+    margin-bottom: 76px;
+}
+
+footer h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer-items{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+}
+
+.footer-items a{
+    text-decoration: none;
+    color:  white;
+    font-size: 22px;
+}
+/* Footer */
+
+
+

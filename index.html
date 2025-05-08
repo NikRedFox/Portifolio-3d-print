@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="./src/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <p>Logo</p>
+
+        <nav class="header-links">
+            <ul class="header-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">Portifolio</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fim Header -->
+
+    <!-- Main -->
+    <main>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>        
+        <div class="main-container">
+            <img class="img-main-1" src="https://scitechdaily.com/images/3D-Printer.gif" alt="">
+            <img class="img-main-2" src="https://s3files.core77.com/blog/images/1118633_81_103834_s4C49keiq.gif" alt="">
+            <h1>Creative Print</h1>
+        </div>
+        <button>Get a Quote</button>
+    </main>
+    <!-- Fim Main -->
+
+    <!-- Portifolio -->
+    <section class="portifolio-container">
+        <h2>Portifolio</h2>
+        <div class="quadro-container">            
+            <div class="quadro-column-left">
+               <img class="first-img" src="./src/assets/images/First-img.jpg" alt="">
+                <img class="third-img" src="./src/assets/images/Third-img.jpg" alt="">
+                <img class="fifth-img" src="./src/assets/images/Fifth-img.png" alt=""> 
+            </div>
+            <div class="quadro-column-right">
+                <img class="second-img" src="./src/assets/images/Second-img.jpg" alt="">
+                <img class="fourth-img" src="./src/assets/images/Fourth-img.png" alt="">
+                <img class="sixth-img" src="./src/assets/images/Sixth-img.png" alt="">
+            </div>                    
+        </div>
+    </section>
+    <!-- Fim Portifolio -->
+
+    <!-- About -->
+    <section class="about-container">
+        <h2>About</h2>
+
+        <div class="about-textbox">
+            <div class="about-text">
+                <p>We create stunning Lorem ipsum dolor sit amet, consectetur adipiscing elit.We create stunning Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>After 10 years of experience Lorem ipsum dolor sit amet, consectetur adipiscing elit.We create stunning Lorem ipsum dolor sit amet, consectetur adipiscing elit.We create stunning Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <img src="./src/assets/images/3d-print-simbol.png" alt="">
+        </div>    
+    </section>
+    <!-- Fim About -->
+
+    <!-- Testimonials -->
+    <section class="testimonials-container">
+        <div class="testimonials-text">
+            <h2>Testimonials</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+
+        <div class="testimonials-cards-container">
+            <div class="testimonials-cards-horizontal">
+                <div class="testimonial-card-H">
+                    <img src="./src/assets/images/Curly-hair-man.svg" alt="">
+                    <div class="card-text-H">
+                        <h3>“Amazing Team with Lorem Ipsum”</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p>
+                        <button>
+                            See full review
+                            <img src="./src/assets/images/Arrow-right.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="testimonial-card-H">
+                    <div class="card-text-H">
+                        <h3>“Big Dreams for lorem ipsum”</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p>
+                        <button>
+                            See full review
+                            <img src="./src/assets/images/Arrow-right.svg" alt="">
+                        </button>                        
+                    </div>
+                    <img src="./src/assets/images/Beard-man.svg" alt="">
+                </div>
+            </div>
+
+            <div class="testimonials-card-vertical">
+                <img  src="./src/assets/images/Smiley-man.svg" alt="">
+                <div class="card-text-V">
+                    <h3>“Good Dreams for lorem ipsum”</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,</p>
+                    <button>
+                        See full review
+                        <img src="./src/assets/images/Arrow-right.svg" alt="">
+                    </button>
+                </div>                
+            </div>
+        </div>
+
+        <button class="testimonial-button">See All Reviews</button>
+    </section>
+    <!-- Fim Testimonials -->
+
+    <!-- Contact -->
+    <section class="contact-container">
+        <h2>Contact</h2>
+
+        <div class="contact-form-container">
+            <form class="form-box" action="">
+                <label for="name">Name</label>
+                <input type="text" class="input-underline" placeholder="Jhon Doe">
+
+                <label for="name">Email</label>
+                <input type="text" class="input-underline" placeholder="jhon@email.com">
+
+                <label for="name">Message</label>
+                <textarea type="text" class="input-underline-message" placeholder="Enter your message here..."></textarea>
+
+                <button>Send</button>
+            </form> 
+        </div>
+    </section>
+    <!-- Fim Contact -->
+
+    <!-- Footer -->
+    <footer>
+        <h2>2022 Company</h2>
+        <nav class="footer-links">
+            <ul class="footer-items">
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms and Conditions</a></li>               
+            </ul>
+        </nav>
+    </footer>
+    <!-- Fim Footer -->
+</body>
+</html> 
